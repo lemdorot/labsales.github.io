@@ -703,8 +703,8 @@ h6 {
 }
 
 .tabs__photos img {
-  width: 16.375rem;
-  height: 10.6875rem;
+  width: auto;
+  height: 100%;
 }
 
 ._tab-active .tabs__btn-wrap {
@@ -1550,8 +1550,8 @@ h6 {
   .tabs__photos img {
     border-radius: 10px;
     overflow: hidden;
-    width: auto;
-    height: 100%;
+    width: 16.375rem;
+    height: 10.6875rem;
   }
 
   .tabs__content {
