@@ -293,10 +293,11 @@
     menuInit();
     tabs();
     const menu_links = document.querySelectorAll(".menu__link");
-    if (window.matchMedia("(max-width: 992px)").matches) menu_links.forEach((elem => {
+    debugger;
+    menu_links.forEach((elem => {
         elem.addEventListener("click", (e => {
             e.preventDefault();
-            console.log(elem.classList);
+            if (window.matchMedia("(min-width: 992px)").matches) return;
             if (elem.nextSibling) while (elem.parentNode.children) if (elem.nextElementSibling.classList.contains("menu__list")) if (elem.classList.contains("active")) {
                 elem.classList.remove("active");
                 elem.nextElementSibling.style.maxHeight = elem.nextElementSibling.scrollHeight + "px";
