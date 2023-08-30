@@ -293,7 +293,6 @@
     menuInit();
     tabs();
     const menu_links = document.querySelectorAll(".menu__link");
-    debugger;
     menu_links.forEach((elem => {
         elem.addEventListener("click", (e => {
             e.preventDefault();
@@ -323,6 +322,7 @@
             }
         }));
     }));
+    window.addEventListener("resize", (e => {}));
     function initSliders() {
         if (document.querySelector(".advantages__slider")) new Swiper(".advantages__slider", {
             slidesPerView: 1.2,
