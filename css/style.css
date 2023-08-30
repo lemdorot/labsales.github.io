@@ -1550,7 +1550,7 @@ h6 {
   .tabs__photos img {
     border-radius: 10px;
     overflow: hidden;
-    width: 100%;
+    width: auto;
     height: 100%;
   }
 
