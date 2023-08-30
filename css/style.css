@@ -702,6 +702,11 @@ h6 {
   margin-top: 1.25rem;
 }
 
+.tabs__photos img {
+  width: 100%;
+  height: 100%;
+}
+
 ._tab-active .tabs__btn-wrap {
   border: 1px solid #31BEF4;
 }
